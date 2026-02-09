@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c4i7rb5g4jph6"]
 
 [ext_resource type="Script" uid="uid://c8cfke5qkd4hs" path="res://path_follow_2d.gd" id="1_17g6i"]
-[ext_resource type="Texture2D" uid="uid://ceqen3rbmqivo" path="res://icon.svg" id="1_i37i2"]
+[ext_resource type="Texture2D" uid="uid://clkx7tiswp1sg" path="res://football.png" id="2_i37i2"]
 
 [sub_resource type="Curve2D" id="Curve2D_xh13x"]
 _data = {
@@ -22,5 +22,5 @@ script = ExtResource("1_17g6i")
 [node name="Sprite2D" type="Sprite2D" parent="Path2D/PathFollow2D" unique_id=1047946333]
 position = Vector2(0.30677032, 0.3948288)
 rotation = 0.9078723
-scale = Vector2(0.9760324, 0.9691547)
-texture = ExtResource("1_i37i2")
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_i37i2")
