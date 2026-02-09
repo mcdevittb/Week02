@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://c4i7rb5g4jph6"]
+
+[ext_resource type="Script" uid="uid://c8cfke5qkd4hs" path="res://path_follow_2d.gd" id="1_17g6i"]
+[ext_resource type="Texture2D" uid="uid://ceqen3rbmqivo" path="res://icon.svg" id="1_i37i2"]
+
+[sub_resource type="Curve2D" id="Curve2D_xh13x"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -7, 309, 0, 0, 0, 0, 223, 13, 0, 0, 0, 0, 379, 238, 0, 0, 0, 0, 694, 38, 0, 0, 0, 0, 798, 267, 0, 0, 0, 0, 1065, 42, 0, 0, 0, 0, 1084, 490, 0, 0, 0, 0, 868, 604, 0, 0, 0, 0, 644, 402, 0, 0, 0, 0, 493, 579, 0, 0, 0, 0, 353, 357, 0, 0, 0, 0, 182, 557, 0, 0, 0, 0, -11, 304)
+}
+point_count = 13
+
+[node name="GameBoard" type="Node2D" unique_id=636986791]
+
+[node name="Path2D" type="Path2D" parent="." unique_id=1731018916]
+curve = SubResource("Curve2D_xh13x")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D" unique_id=1096657598]
+position = Vector2(-7, 309)
+rotation = -0.9102211
+script = ExtResource("1_17g6i")
+
+[node name="Sprite2D" type="Sprite2D" parent="Path2D/PathFollow2D" unique_id=1047946333]
+position = Vector2(0.30677032, 0.3948288)
+rotation = 0.9078723
+scale = Vector2(0.9760324, 0.9691547)
+texture = ExtResource("1_i37i2")

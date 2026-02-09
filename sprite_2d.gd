@@ -1,0 +1,11 @@
+extends Sprite2D
+
+var speed: float = 200.0
+var direction: Vector2 = Vector2.LEFT
+
+func _process(delta: float) -> void:
+	position += direction * speed * delta
+
+func _physics_process(delta: float) -> void:
+	pass
+	
