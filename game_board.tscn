@@ -5,7 +5,7 @@
 
 [sub_resource type="Curve2D" id="Curve2D_xh13x"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, -7, 309, 0, 0, 0, 0, 223, 13, 0, 0, 0, 0, 379, 238, 0, 0, 0, 0, 694, 38, 0, 0, 0, 0, 798, 267, 0, 0, 0, 0, 1065, 42, 0, 0, 0, 0, 1084, 490, 0, 0, 0, 0, 868, 604, 0, 0, 0, 0, 644, 402, 0, 0, 0, 0, 493, 579, 0, 0, 0, 0, 353, 357, 0, 0, 0, 0, 182, 557, 0, 0, 0, 0, -11, 304)
+"points": PackedVector2Array(0, 0, 0, 0, -175, 4, 0, 0, 0, 0, 1128, 70, 0, 0, 0, 0, 3, 48, 0, 0, 0, 0, 1132, 149, 0, 0, 0, 0, 8, 107, 0, 0, 0, 0, 1137, 226, 0, 0, 0, 0, 9, 171, 0, 0, 0, 0, 1137, 333, 0, 0, 0, 0, 0, 252, 0, 0, 0, 0, 1139, 437, 0, 0, 0, 0, -4, 356, 0, 0, 0, 0, 1146, 574, 0, 0, 0, 0, -185, 521)
 }
 point_count = 13
 
@@ -15,8 +15,8 @@ point_count = 13
 curve = SubResource("Curve2D_xh13x")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Path2D" unique_id=1096657598]
-position = Vector2(-7, 309)
-rotation = -0.9102211
+position = Vector2(-175, 4)
+rotation = 0.05060909
 script = ExtResource("1_17g6i")
 
 [node name="Sprite2D" type="Sprite2D" parent="Path2D/PathFollow2D" unique_id=1047946333]
